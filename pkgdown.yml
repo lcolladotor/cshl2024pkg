@@ -1,7 +1,7 @@
-pandoc: '3.2'
+pandoc: 3.1.13
 pkgdown: 2.0.9
 pkgdown_sha: ~
 articles:
   cshl2024pkg: cshl2024pkg.html
-last_built: 2024-06-11T00:11Z
+last_built: 2024-06-11T00:28Z
 
