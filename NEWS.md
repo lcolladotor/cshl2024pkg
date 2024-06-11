@@ -3,6 +3,7 @@
 NEW FEATURES
 
 * Added a `NEWS.md` file to track changes to the package.
+* Created the `weekday_praise()` function.
 
 SIGNIFICANT USER-VISIBLE CHANGES
 

@@ -58,8 +58,8 @@ bib <- c(
 
 ```{r "install", eval = FALSE}
 if (!requireNamespace("BiocManager", quietly = TRUE)) {
-      install.packages("BiocManager")
-  }
+    install.packages("BiocManager")
+}
 
 BiocManager::install("cshl2024pkg")
 
@@ -90,13 +90,12 @@ citation("cshl2024pkg")
 
 ```{r "start", message=FALSE}
 library("cshl2024pkg")
+
+## Praise the weekday when we started the course
+praise_weekday("2024-06-09")
 ```
 
-Edit this as you see fit =)
-
-Here is an example of you can cite your package inside the vignette:
-
-* `r Biocpkg("cshl2024pkg")` `r Citep(bib[["cshl2024pkg"]])`
+`r Biocpkg("cshl2024pkg")` `r Citep(bib[["cshl2024pkg"]])` is a live demo package for `biocthis`.
 
 
 
