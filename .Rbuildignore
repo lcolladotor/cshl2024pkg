@@ -1,3 +1,6 @@
 ^cshl2024pkg\.Rproj$
 ^\.Rproj\.user$
 ^dev$
+^README\.Rmd$
+^\.github$
+^codecov\.yml$

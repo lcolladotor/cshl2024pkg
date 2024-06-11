@@ -1,14 +1,26 @@
 Package: cshl2024pkg
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: CSHL Data 2024 live demo
+Version: 0.99.0
+Date: 2024-06-10
 Authors@R: 
     person("Leonardo", "Collado-Torres", , "lcolladotor@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-2140-308X"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: We are doing a live demo of biocthis for the CSHL Data 2024 course.
+    This package will have one example function and associated tests.
+    Leo really is really struggling here.
+License: Artistic-2.0
+URL: https://github.com/lcolladotor/cshl2024pkg
+BugReports: https://support.bioconductor.org/tag/cshl2024pkg
+biocViews: Software
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
-URL: https://github.com/lcolladotor/cshl2024pkg
-BugReports: https://github.com/lcolladotor/cshl2024pkg/issues
+Suggests: 
+    BiocStyle,
+    knitr,
+    RefManageR,
+    rmarkdown,
+    sessioninfo,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
