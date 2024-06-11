@@ -92,7 +92,7 @@ citation("cshl2024pkg")
 library("cshl2024pkg")
 
 ## Praise the weekday when we started the course
-praise_weekday("2024-06-09")
+weekday_praise("2024-06-09")
 ```
 
 `r Biocpkg("cshl2024pkg")` `r Citep(bib[["cshl2024pkg"]])` is a live demo package for `biocthis`.
